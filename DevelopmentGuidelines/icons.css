@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "icomoon";
+  src: url("fonts/icomoon.eot?e3anm1");
+  src: url("fonts/icomoon.eot?e3anm1#iefix") format("embedded-opentype"), url("fonts/icomoon.ttf?e3anm1") format("truetype"), url("fonts/icomoon.woff?e3anm1") format("woff"), url("fonts/icomoon.svg?e3anm1#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+[class^=icon-], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-icon-marker:before {
+  content: "\e901";
+}
+
+.icon-icon-right:before {
+  content: "\e902";
+}
+
+.icon-icon-sharp:before {
+  content: "\e903";
+}
+
+.icon-menu-burger:before {
+  content: "\e904";
+}
+
+.icon-search:before {
+  content: "\e905";
+}
+
+.icon-user:before {
+  content: "\e906";
+}
+
+.icon-xmark:before {
+  content: "\e907";
+}
+
+.icon-icon-empty:before {
+  content: "\e900";
+}/*# sourceMappingURL=icons.css.map */
