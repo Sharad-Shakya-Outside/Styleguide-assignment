@@ -1,10 +1,20 @@
-$primary: #FF961C;
-$charcoal: #212121;
-$stone-900: #CCCEB7;
-$sky-blue: #97D9FF;
-$peach: peachpuff;
+:root {
+    --primary: #FF961C;
+    --charcoal: #212121;
+    --stone-900: #CCCEB7;
+    --sky-blue: #97D9FF;
+    --peach: peachpuff;
 
-$font-montserrat: "Montserrat", sans-serif;
+    --font-montserrat: "Montserrat", sans-serif;
+}
+
+$primary: var(--primary);
+$charcoal: var(--charcoal);
+$stone-900: var(--stone-900);
+$sky-blue: var(--sky-blue);
+$peach: var(--peach);
+
+$font-montserrat: var(--font-montserrat);
 
 $headings: (
     "h1": (
