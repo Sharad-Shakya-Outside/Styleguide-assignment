@@ -1,0 +1,20 @@
+@use "sass:map";
+
+@import './variables';
+
+@each $heading, $properties in $headings {
+    #{$heading} {
+        font-size: map.get($properties, "font-size");
+        line-height: map.get($properties, "line-height");
+        font-weight: 500;
+        letter-spacing: -0.03rem;
+    }
+}
+
+@each $text-size, $properties in $text-sizes {
+    .#{$text-size} {
+        font-size: map.get($properties, "font-size");
+        line-height: map.get($properties, "line-height");
+        font-weight: 400;
+    }
+}
